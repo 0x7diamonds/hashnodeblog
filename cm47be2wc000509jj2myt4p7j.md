@@ -12,7 +12,7 @@ tags: blockchain
 
 **Block construction** is the process of creating and finalizing a block, which is a collection of data (mostly transactions) that gets added to the distributed ledger.
 
-## **Step in Block Construction**
+## **Steps in Block Construction**
 
 **Step 1. Transaction Pool (Mempool):**
 
@@ -38,15 +38,15 @@ Transactions are organized into a *Merkle Tree*:
 
 **Step 4. Consensus Mechanism:**
 
-The method of block construction depends on the blockchain’s consensus algorithm: *1\.* ***Proof of Work (PoW)****:*
+The method of block construction depends on the blockchain’s consensus algorithm: *1.* ***Proof of Work (PoW)****:*
 
 Miners compete to solve a cryptographic puzzle by finding a nonce that satisfies the block’s target difficulty. The first miner to solve the puzzle broadcasts the block to the network for validation.
 
-*2\.* ***Proof of Stake (PoS)****:*
+*2.* ***Proof of Stake (PoS)****:*
 
 Validators are selected based on the amount of cryptocurrency they have staked. The selected validator proposes (đề xuất) a block, which is then voted on or validated by other participants.
 
-*3\.* ***Other Mechanisms****:*
+*3.* ***Other Mechanisms***\*:\*
 
 **Delegated Proof of Stake (DPoS)**: A small set of elected delegates construct blocks.
 
